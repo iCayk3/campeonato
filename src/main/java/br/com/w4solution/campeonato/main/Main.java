@@ -11,7 +11,7 @@ public class Main {
 
         while(opcao != 0){
             System.out.println("""
-                Selecione uma das opções:
+                Selecione uma das opções: Apenas uma mudança de teste!
                 1 - Cadastrar time
                 2 - Cadastrar jogador
                 3 - Registrar informações da partida
