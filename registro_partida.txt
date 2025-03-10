@@ -1,0 +1,1 @@
+RegistroPartida{id=null, timeA='Vasco', timeB='Flamengo', TempoJogo='95', golsTimeA=5, golsTimeB=2, totalCartaoAmarelos=5, totalCartaoVermelhos=0}

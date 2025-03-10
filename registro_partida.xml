@@ -1,0 +1,9 @@
+<br.com.w4solution.campeonato.domain.RegistroPartida>
+  <timeA>Palmeiras</timeA>
+  <timeB>Santos</timeB>
+  <TempoJogo>99</TempoJogo>
+  <golsTimeA>2</golsTimeA>
+  <golsTimeB>2</golsTimeB>
+  <totalCartaoAmarelos>3</totalCartaoAmarelos>
+  <totalCartaoVermelhos>0</totalCartaoVermelhos>
+</br.com.w4solution.campeonato.domain.RegistroPartida>

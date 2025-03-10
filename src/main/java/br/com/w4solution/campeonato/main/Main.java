@@ -1,11 +1,13 @@
 package br.com.w4solution.campeonato.main;
 
+import br.com.w4solution.campeonato.controller.RegistrarController;
+
 import java.util.Scanner;
 
 public class Main {
 
     public void exibirMenu(){
-
+        var registrar = new RegistrarController();
         var opcao = -1;
         var sc = new Scanner(System.in);
 
@@ -33,6 +35,7 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Registrar informações da partida");
+                    registrar.cadastrarRegistro();
                     break;
                 case 4:
                     System.out.println("Calendario de jogos");
