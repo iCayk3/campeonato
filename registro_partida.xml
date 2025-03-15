@@ -1,9 +1,141 @@
-<br.com.w4solution.campeonato.domain.RegistroPartida>
-  <timeA>Palmeiras</timeA>
-  <timeB>Santos</timeB>
-  <TempoJogo>99</TempoJogo>
-  <golsTimeA>2</golsTimeA>
-  <golsTimeB>2</golsTimeB>
-  <totalCartaoAmarelos>3</totalCartaoAmarelos>
-  <totalCartaoVermelhos>0</totalCartaoVermelhos>
-</br.com.w4solution.campeonato.domain.RegistroPartida>
+
+<list>
+  <br.com.w4solution.campeonato.domain.registros.Partida>
+    <numeroSumula>1</numeroSumula>
+    <categoria>Adulto</categoria>
+    <sexo>MASCULINO</sexo>
+    <fase>CHAVE</fase>
+    <local>
+      <nome>Maria pajé</nome>
+      <cidade>São João de Pirabas</cidade>
+      <uf>PA</uf>
+    </local>
+    <data>2025-03-12</data>
+    <equipeA>Time 1</equipeA>
+    <equipeB>Time 2</equipeB>
+    <capitaoEquipeA>Eu</capitaoEquipeA>
+    <capitaoEquipeB>Você</capitaoEquipeB>
+    <golsPrimeiroTempoEquipeA>3</golsPrimeiroTempoEquipeA>
+    <horarios>
+      <tempo1>19:00</tempo1>
+      <tempo2>19:30</tempo2>
+    </horarios>
+    <cartoesAmarelosTimeA>
+      <br.com.w4solution.campeonato.domain.registros.Cartao>
+        <nomeJogador>Cayke Silva</nomeJogador>
+      </br.com.w4solution.campeonato.domain.registros.Cartao>
+    </cartoesAmarelosTimeA>
+    <golsTimeA>
+      <br.com.w4solution.campeonato.domain.registros.Gol>
+        <nomeJogador>Cayke Silva</nomeJogador>
+        <tempo>07:45</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Gol>
+      <br.com.w4solution.campeonato.domain.registros.Gol>
+        <nomeJogador>Cayke Silva</nomeJogador>
+        <tempo>08:15</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Gol>
+      <br.com.w4solution.campeonato.domain.registros.Gol>
+        <nomeJogador>Cayke Silva</nomeJogador>
+        <tempo>09:27</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Gol>
+    </golsTimeA>
+    <faltasTimeB>
+      <br.com.w4solution.campeonato.domain.registros.Falta>
+        <nomeJogador>MM</nomeJogador>
+        <tempo>02:44</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Falta>
+      <br.com.w4solution.campeonato.domain.registros.Falta>
+        <nomeJogador>CC</nomeJogador>
+        <tempo>02:59</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Falta>
+      <br.com.w4solution.campeonato.domain.registros.Falta>
+        <nomeJogador>DD</nomeJogador>
+        <tempo>05:21</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Falta>
+      <br.com.w4solution.campeonato.domain.registros.Falta>
+        <nomeJogador>MM</nomeJogador>
+        <tempo>07:11</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Falta>
+      <br.com.w4solution.campeonato.domain.registros.Falta>
+        <nomeJogador>MM</nomeJogador>
+        <tempo>11:11</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Falta>
+    </faltasTimeB>
+    <arbitros>
+      <arbitroPrincipal>Fulano</arbitroPrincipal>
+      <arbitroAuxiliar>Ciclano</arbitroAuxiliar>
+      <anotacoesComentarista>Beltrano</anotacoesComentarista>
+      <representante>Batman</representante>
+    </arbitros>
+  </br.com.w4solution.campeonato.domain.registros.Partida>
+</list>
+<list>
+  <br.com.w4solution.campeonato.domain.registros.Partida>
+    <numeroSumula>1</numeroSumula>
+    <categoria>Adulto</categoria>
+    <sexo>MASCULINO</sexo>
+    <fase>CHAVE</fase>
+    <local>
+      <nome>Maria pajé</nome>
+      <cidade>São João de Pirabas</cidade>
+      <uf>PA</uf>
+    </local>
+    <data>2025-03-12</data>
+    <equipeA>Time 1</equipeA>
+    <equipeB>Time 2</equipeB>
+    <capitaoEquipeA>Eu</capitaoEquipeA>
+    <capitaoEquipeB>Você</capitaoEquipeB>
+    <golsPrimeiroTempoEquipeA>3</golsPrimeiroTempoEquipeA>
+    <horarios>
+      <tempo1>19:00</tempo1>
+      <tempo2>19:30</tempo2>
+    </horarios>
+    <cartoesAmarelosTimeA>
+      <br.com.w4solution.campeonato.domain.registros.Cartao>
+        <nomeJogador>Cayke Silva</nomeJogador>
+      </br.com.w4solution.campeonato.domain.registros.Cartao>
+    </cartoesAmarelosTimeA>
+    <golsTimeA>
+      <br.com.w4solution.campeonato.domain.registros.Gol>
+        <nomeJogador>Cayke Silva</nomeJogador>
+        <tempo>07:45</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Gol>
+      <br.com.w4solution.campeonato.domain.registros.Gol>
+        <nomeJogador>Cayke Silva</nomeJogador>
+        <tempo>08:15</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Gol>
+      <br.com.w4solution.campeonato.domain.registros.Gol>
+        <nomeJogador>Cayke Silva</nomeJogador>
+        <tempo>09:27</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Gol>
+    </golsTimeA>
+    <faltasTimeB>
+      <br.com.w4solution.campeonato.domain.registros.Falta>
+        <nomeJogador>MM</nomeJogador>
+        <tempo>02:44</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Falta>
+      <br.com.w4solution.campeonato.domain.registros.Falta>
+        <nomeJogador>CC</nomeJogador>
+        <tempo>02:59</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Falta>
+      <br.com.w4solution.campeonato.domain.registros.Falta>
+        <nomeJogador>DD</nomeJogador>
+        <tempo>05:21</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Falta>
+      <br.com.w4solution.campeonato.domain.registros.Falta>
+        <nomeJogador>MM</nomeJogador>
+        <tempo>07:11</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Falta>
+      <br.com.w4solution.campeonato.domain.registros.Falta>
+        <nomeJogador>MM</nomeJogador>
+        <tempo>11:11</tempo>
+      </br.com.w4solution.campeonato.domain.registros.Falta>
+    </faltasTimeB>
+    <arbitros>
+      <arbitroPrincipal>Fulano</arbitroPrincipal>
+      <arbitroAuxiliar>Ciclano</arbitroAuxiliar>
+      <anotacoesComentarista>Beltrano</anotacoesComentarista>
+      <representante>Batman</representante>
+    </arbitros>
+  </br.com.w4solution.campeonato.domain.registros.Partida>
+</list>

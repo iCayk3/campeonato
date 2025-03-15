@@ -1,13 +1,21 @@
 package br.com.w4solution.campeonato.main;
 
 import br.com.w4solution.campeonato.controller.RegistrarController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.Scanner;
 
+@Component
 public class Main {
 
+    RegistrarController registrar;
+
+    public Main(RegistrarController registrar) {
+        this.registrar = registrar;
+    }
+
     public void exibirMenu(){
-        var registrar = new RegistrarController();
         var opcao = -1;
         var sc = new Scanner(System.in);
 
